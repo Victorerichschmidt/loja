@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+}
+body{
+    display: grid;
+    gap: 5px;
+    grid-template-areas:
+    "cabeca cabeca cabeca"
+    "secundario principal principal"
+    "rodape rodape rodape";
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: 100px auto auto;
+    background-color: #0477BF;
+}
+.elemento_pai{
+    /*     border: 2px red solid;
+     */    display: flex;
+        justify-content: center;
+        padding: 20px;
+        flex-wrap: wrap;
+        align-items: center;
+}
+.card{
+    display: flex;
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+    box-shadow: 3px 6px 9px #0477BF;
+    transition: 0.2s;
+    flex-direction: column;
+}
+header{
+    grid-area: cabeca;
+    background-color: #F2CB05;
+    height: 100px;
+}
+.logotipo{
+    width: 180px;
+    position: absolute;
+    left: auto;
+    top: 0px;
+}
+aside{
+    grid-area: secundario;
+    background-color: #7e55468c;
+}
+main{
+    grid-area: principal;
+    background-color: #235714;
+}
+footer{
+    grid-area:rodape;
+    background-color: #F2B705;
+    height: 190px;
+    text-align: center;
+}
+.imagem{
+    width: 300px;
+    border-radius: 20px;
+}
+/* header img{
+    width: 200px
+}*/
+@media only screen and (max-width: 800px){
+body{
+    grid-template-areas:
+    "cabeca"
+    "secundario"
+    "principal"
+    "rodape";
+    grid-template-columns:1fr;
+    grid-template-rows:auto auto auto auto;
+}
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.caixa{
+    box-shadow: 2px 0px 3px 0px rgb(126, 126, 126);
+    width: 150px;
+    height: 150px;
+}
+nav li a{
+    text-decoration: none;
+    color: #0D0D0D;
+}
+.texto a{
+    display: block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.card:hover{
+    background-color: black;
+    color: white;
+}
+.card:hover a{
+    background-color: rgb(0, 217, 255);
+    color: black;
+}
+.card:hover img{
+    filter: invert(1);
+}
+.texto a:hover{
+    background-color: rgb(0, 217, 255);
+}  
+button{
+    border-radius: 30px;
+    width: 300px;
+    height: 35px;
+}
+header nav li{
+    display: inline;
+}
+header nav{
+    border: none;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+header nav a{
+    text-decoration: none;
+    margin-left: 20px;
+    background-color: #0D0D0D;
+    color: #F2B705;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.2s;
+}
+header nav a:hover{
+    background-color: rgb(black, blue, Green);
+    color: green;
+}
+.footerlogo{
+    width: 330px;
+    position: absolute;
+    right: 6px;
+}
+.carrinho{
+    width: 101px;
+    position: absolute;
+    right: 180px;
+    top: 0px;
+    border-radius: 20px;
+}
