@@ -38,7 +38,7 @@ header{
     height: 101px;
 }
 .logotipo{
-    width: 180px;
+    width: 97px;
     position: absolute;
     left: auto;
     top: 0px;
@@ -53,9 +53,9 @@ main{
 }
 footer{
     grid-area:rodape;
-    background-color: darkgray;
+    background-color:lightgrey;
     height: 190px;
-    text-align: center;
+    text-align: center
 }
 .imagem{
     width: 300px;
@@ -128,7 +128,7 @@ header nav a:hover{
     color: green;
 }
 .footerlogo{
-    width: 330px;
+    width: 180px;
     position: absolute;
     right: 6px;
 }@media only screen and (max-width: 800px){

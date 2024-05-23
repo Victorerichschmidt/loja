@@ -1,4 +1,4 @@
 function ola() {
-    nome = prompt("digite o seu nome de usuário: ");
+    nome = prompt("DIGITE SEU NOME PARA CONCORDAR COM OS TERMOS: ");
     alert(nome);
 }
