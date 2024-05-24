@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #e3390a; /* branco */
+    background-color: lightgray; /* branco */
     color: #000000; /* preto */
     margin: 0;
     padding: 0;
@@ -42,4 +42,10 @@ input[type="submit"] {
 }
 input[type="submit"]:hover {
     background-color: #333333; /* cinza mais escuro */
+}
+.footerlogo{
+    width: 100px;
+    position: absolute;
+    left: auto;
+    top: 0px;
 }

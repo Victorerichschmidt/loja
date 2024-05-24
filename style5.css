@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #e3390a;
+    background-color: lightgray;
 }
 .container {
     width: 400px;
@@ -53,4 +53,10 @@ h2 {
 }
 .btn-submit:hover {
     background-color: #2e2e2e;
+}
+.footerlogo{
+    width: 100px;
+    position: absolute;
+    left: auto;
+    top: 0px;
 }

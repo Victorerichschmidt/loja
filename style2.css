@@ -10,7 +10,7 @@ body{
     "rodape rodape rodape";
     grid-template-columns: 1fr 2fr 2fr;
     grid-template-rows: 100px auto auto;
-    background-color: #e3390a;
+    background-color: #000000;
 }
 header{
     grid-area: cabeca;
@@ -19,11 +19,11 @@ header{
 }
 aside{
     grid-area: secundario;
-    background-color: rgb(68, 68, 68);
+    background-color: lightgray;
 }
 main{
     grid-area: principal;
-    background-color: rgb(68, 68, 68);
+    background-color: lightgray;
 }
 footer{
     grid-area:rodape;
@@ -43,7 +43,7 @@ body{
 }
 }
 .footerlogo{
-    width: 180px;
+    width: 170px;
     position: absolute;
     right: 6px;
 }
@@ -70,7 +70,7 @@ header nav a:hover{
     color: green;
 }
 .logotipo{
-    width: 95px;
+    width: 93px;
     position: absolute;
     left: auto;
     top: 0px;
@@ -148,7 +148,7 @@ border-radius: 15px;
 .botao {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #a32900;
+    background-color: #131313;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
